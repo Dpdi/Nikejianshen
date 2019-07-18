@@ -1,0 +1,10 @@
+<!--pages/shouye_2/shouye_2.wxml-->
+<view class="dsxl" wx:for="{{dsxl}}" bindtap="bindGl">
+  <image src="{{item.img}}"></image>
+  <view class="dsxl_1">
+    <text>{{item.t1}}</text>
+    <text>{{item.t2}}</text>
+  </view>
+</view>
+
+<view class="gdxl" bindtap="gdxl">更多训练</view>

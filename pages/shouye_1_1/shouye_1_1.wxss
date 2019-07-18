@@ -1,0 +1,35 @@
+/* pages/shouye_1_1/shouye_1_1.wxss */
+.jihua{
+  margin-top: 80rpx;
+}
+.jihua_1{
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 28rpx;
+}
+
+.van-hairline--top-bottom:after{
+  border:0 !important;
+}
+
+.xuanx{
+  
+}
+.xuanx1{
+  padding-left: 80rpx;
+  margin-bottom: 40rpx;
+}
+.xuanx2{
+  color: #000;
+  font-size: 38rpx;
+  padding: 40rpx 0 20rpx 80rpx;
+  border-bottom: 1px solid #b9b9b9;
+}
+.xuanxb{
+  width: 200rpx;
+  background: #000;
+  color: #fff;
+  margin-left: 80rpx;
+}

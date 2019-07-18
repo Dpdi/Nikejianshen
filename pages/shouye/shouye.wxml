@@ -1,0 +1,10 @@
+<!--pages/shouye/shouye.wxml-->
+<view class="shouye" bindtap="bindShouye_1">
+  <image src="../../images/shouye1.jpg"></image>
+</view>
+<view class="shouye" bindtap="bindShouye_2">
+  <image src="../../images/shouye2.jpg"></image>
+</view>
+<view class="shouye" bindtap="bindShouye_3">
+  <image src="../../images/shouye3.jpg"></image>
+</view>

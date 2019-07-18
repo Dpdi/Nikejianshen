@@ -1,0 +1,41 @@
+<!--pages/shouye_3_1_1/shouye_3_1_1.wxml-->
+<view class="gl_1">
+  <image src="../../images/lhsz.jpg"></image>
+  <button  bindtap="bindShipin">开始</button>
+</view>
+
+<view class="lhsz">
+  <view class="lhsz_1">
+    <text>训练创建者</text>
+    <text>何耀辉</text>
+  </view>
+  <view class="nr" bindtap="show">
+    <image src="{{gailan[02].image}}"></image>
+    <text>{{gailan[02].name}}</text>
+  </view>
+  <view class="nr" bindtap="show">
+    <image src="{{gailan[47].image}}"></image>
+    <text>{{gailan[47].name}}</text>
+  </view>
+  <view class="nr" bindtap="show">
+    <image src="{{gailan[02].image}}"></image>
+    <text>{{gailan[02].name}}</text>
+  </view>
+  <view class="nr" bindtap="show">
+    <image src="{{gailan[02].image}}"></image>
+    <text>{{gailan[02].name}}</text>
+  </view>
+  <view class="yincang" wx:if="{{showView}}" bindtap="show">
+    <view class="yincang1">
+      <image src="{{gailan[02].image}}"></image>
+      <text>{{gailan[02].name}}</text>
+    </view>
+    <video autoplay="true" src="{{gailan[02].video}}"></video>
+  </view>
+</view>
+
+
+<view class="b">
+  <view class="b1" bindtap="bindWode">添加此训练</view>
+  <view class="b2" bindtap="bindShipin">立即开始</view>
+</view>

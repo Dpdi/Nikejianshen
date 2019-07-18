@@ -1,0 +1,10 @@
+<!--pages/shouye_3/shouye_3.wxml-->
+<view class="sj" wx:for="{{sj}}" bindtap="bindSj">
+  <view class="img">
+    <image src="{{item.img}}"></image>
+  </view>
+  <view class="sj_1">
+    <text>{{item.t1}}</text>
+    <text>{{item.t2}}</text>
+  </view>
+</view>

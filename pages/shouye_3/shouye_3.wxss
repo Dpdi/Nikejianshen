@@ -1,0 +1,24 @@
+/* pages/shouye_3/shouye_3.wxss */
+.sj{
+  display: flex;
+  padding: 30rpx 60rpx;
+  border: 2px solid #eeeeee;
+}
+.img image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.sj_1{
+  margin-left: 20rpx;
+  /* padding: 35rpx 0; */
+}
+.sj_1 text:nth-child(1){
+  margin-top: 10rpx;
+  display: block;
+}
+.sj_1 text:nth-child(2){
+  margin-top: 20rpx;
+  display: block;
+  color: #989898;
+  font-size: 30rpx;
+}

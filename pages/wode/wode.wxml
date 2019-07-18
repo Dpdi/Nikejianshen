@@ -1,0 +1,14 @@
+<!--pages/wode/wode.wxml-->
+<view class="wode">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <view class="wode_2">
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="wode_2_2">我已完成训练：0个</text>
+  </view>
+  <view class="wode_3" bindtap="lxwm">联系我们</view>
+</view>
+
+<view class="jinxing">进行中的训练</view>
+<view class="tu">
+  <image src="../../images/wode.jpg"></image>
+</view>

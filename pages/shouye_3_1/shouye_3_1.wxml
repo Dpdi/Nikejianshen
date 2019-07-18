@@ -1,0 +1,41 @@
+<!--pages/shouye_3_1/shouye_3_1.wxml-->
+<view class="tu1">
+  <image src="../../images/sj_1.png"></image>
+</view>
+<view class="tu2">
+  <image src="../../images/sj1.png"></image>
+  <text>何耀辉</text>
+</view>
+
+<view class="b">
+  <view class="b1">
+    <text>教练简介</text>
+    <text>Nike签约教练，女子健康运动倡导者，擅长NTC/瑜伽，坐标北京。
+ACE-CPT美国运动委员会注册私人教练，印度著名Gurukul Kangri瑜伽学院证书，国家2级公共营养师，轻食.悦体.减法生活》《伸展平衡》 作者。
+Jessica认为所有的坚持都源于爱，像运动，从来不用拘于形式。试着褪去是不是变瘦变美变更强大的想法，单纯的爱，我们会收获更多。瑜伽、舞蹈、训练，都是运动不一样的外衣。</text>
+  </view>
+  <view class="b1">
+    <text>健身理念</text>
+    <text>选自己喜欢的，呈现不一样风格的自己。运动和你,都不该被定义，follow your heart, be yourself。</text>
+  </view>
+  <view class="b2">
+    <text class="b2_t">训练概览</text>
+    <view class="b2_s" bindtap="bindSjzq">
+      <view>
+        <image src="../../images/sj_2.png"></image>
+      </view>
+      <view style="margin-left:20rpx;">
+        <text>每日灵活伸展</text>
+        <text>06:00</text>
+      </view>
+    </view>
+    <view class="b2_s" bindtap="bindSjzq">
+      <view>
+        <image src="../../images/sj_3.png"></image>
+      </view>
+      <view>
+        <text>马拉松跑后伸展</text>
+        <text>05:00</text> </view>
+    </view>
+  </view>
+</view>

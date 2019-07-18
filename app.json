@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/qidongping/qidongping",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/xiazai/xiazai",
+    "pages/wode/wode",
+    "pages/shouye/shouye",
+    "pages/shouye_1/shouye_1",
+    "pages/shouye_2/shouye_2",
+    "pages/shouye_3/shouye_3",
+    "pages/shouye_1_1/shouye_1_1",
+    "pages/shouye_2_1/shouye_2_1",
+    "pages/shouye_3_1/shouye_3_1",
+    "pages/shouye_3_1_1/shouye_3_1_1",
+    "pages/shipin/shipin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Nike健身体验房",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "text": "首页",
+        "iconPath": "images/tshouye1.png",
+        "selectedIconPath": "images/tshouye.png"
+      },
+      {
+        "pagePath": "pages/xiazai/xiazai",
+        "text": "下载",
+        "iconPath": "images/txiazai1.png",
+        "selectedIconPath": "images/txiazai.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "images/twode1.png",
+        "selectedIconPath": "images/twode.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-popup": "utils/vant-weapp/dist/popup/index",
+    "van-collapse": "utils/vant-weapp/dist/collapse/index",
+    "van-collapse-item": "utils/vant-weapp/dist/collapse-item/index",
+    "van-datetime-picker": "utils/vant-weapp/dist/datetime-picker/index"
+  }
+}

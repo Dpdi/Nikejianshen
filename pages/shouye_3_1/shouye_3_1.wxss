@@ -1,0 +1,74 @@
+/* pages/shouye_3_1/shouye_3_1.wxss */
+.tu1{
+  width: 100%;
+  height: 300rpx;
+}
+.tu1 image{
+  width: 100%;
+  height: 100%;
+}
+.tu2{
+  position: relative;
+  top: -83rpx;
+  left: 1%;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0 auto;
+}
+.tu2 image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.tu2 text{
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.b{
+  width: 90%;
+  margin: 0 auto;
+}
+.b1{
+
+}
+.b1 text:nth-child(1){
+  margin-top: 40rpx;
+  display: block;
+  font-weight: 600;
+}
+.b1 text:nth-child(2){
+  margin-top: 40rpx;
+  display: block;
+  color: #666666;
+  font-size: 30rpx;
+}
+.b2{
+
+}
+.b2_t{
+  margin: 40rpx 0;
+  display: block;
+  font-weight: 600;
+}
+.b2_s{
+  border-top: 1px solid #666666;
+  padding: 20rpx;
+  display: flex;
+}
+.b2_s image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.b2_s text:nth-child(1){
+  margin-top: 40rpx;
+  display: block;
+  font-weight: 600;
+}
+.b2_s text:nth-child(2){
+  margin-top: 40rpx;
+  display: block;
+  color: #666666;
+  font-size: 30rpx;
+}

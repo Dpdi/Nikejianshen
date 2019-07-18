@@ -1,0 +1,32 @@
+/* pages/shouye_2/shouye_2.wxss */
+.dsxl{
+  width: 100%;
+  display: flex;
+  padding: 20rpx 40rpx;
+  border: 2px solid #eeeeee;
+}
+.dsxl image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.dsxl_1{
+  margin-left: 20rpx;
+  padding: 35rpx 0;
+}
+.dsxl_1 text:nth-child(1){
+  display: block;
+}
+.dsxl_1 text:nth-child(2){
+  display: block;
+  color: #989898;
+  font-size: 30rpx;
+}
+.gdxl{
+  width: 50%;
+  margin: 20rpx auto 80rpx;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30rpx;
+}

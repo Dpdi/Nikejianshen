@@ -1,0 +1,95 @@
+<!--pages/shouye_2_1/shouye_2_1.wxml-->
+<view class="gl_1">
+  <image src="../../images/jcrz1.jpg"></image>
+  <button  bindtap="bindShipin">开始</button>
+</view>
+
+<view class="gl_2">
+  <text>适合人群</text>
+  <text>锻炼,核心肌群力量,下半身耐力,上半身力量</text>
+  <image src="../../images/jcrz2.jpg"></image>
+</view>
+
+<view class="gl_3">
+  <view class="gl_3_1">
+    <text>训练创建者</text>
+    <text>Kirsty Godso</text>
+  </view>
+  <view class="gl_3_2">
+    <view class="bt">热身</view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[11].image}}"></image>
+      <text class="nr_1">{{gailan[11].estDurationSec*2}}</text>
+      <text class="nr_2">{{gailan[11].name}}</text>
+    </view>
+    <view class="nr" bindtap="show" style="border:0">
+      <image src="{{gailan[18].image}}"></image>
+      <text class="nr_1">{{gailan[18].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[18].name}}</text>
+    </view>
+  </view>
+  <view class="gl_3_2">
+    <view class="bt">耐力</view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[14].image}}"></image>
+      <text class="nr_1">{{gailan[14].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[14].name}}</text>
+    </view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[94].image}}"></image>
+      <text class="nr_1">{{gailan[94].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[94].name}}</text>
+    </view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[09].image}}"></image>
+      <text class="nr_1">{{gailan[09].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[09].name}}</text>
+    </view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[47].image}}"></image>
+      <text class="nr_1">{{gailan[47].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[47].name}}</text>
+    </view>
+    <view class="nr" bindtap="show" style="border:0">
+      <image src="{{gailan[05].image}}"></image>
+      <text class="nr_1">{{gailan[05].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[05].name}}</text>
+    </view>
+  </view>
+  <view class="gl_3_2">
+    <view class="bt">放松</view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[20].image}}"></image>
+      <text class="nr_1">{{gailan[20].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[20].name}}</text>
+    </view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[22].image}}"></image>
+      <text class="nr_1">{{gailan[22].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[22].name}}</text>
+    </view>
+    <view class="nr" bindtap="show">
+      <image src="{{gailan[17].image}}"></image>
+      <text class="nr_1">{{gailan[17].estDurationSec}}</text>
+      <text class="nr_2">{{gailan[17].name}}</text>
+    </view>
+    <view class="nr" bindtap="show" style="border:0">
+      <image src="{{gailan[21].image}}"></image>
+      <text class="nr_1">{{gailan[21].estDurationSec05}}</text>
+      <text class="nr_2">{{gailan[21].name}}</text>
+    </view>
+  </view>
+  <view class="yincang" wx:if="{{showView}}" bindtap="show">
+    <view class="yincang1">
+      <image src="{{gailan[11].image}}"></image>
+      <text>{{gailan[11].name}}</text>
+    </view>
+    <video autoplay="true" src="{{gailan[11].video}}"></video>
+  </view>
+</view>
+
+
+<view class="b">
+  <view class="b1" bindtap="bindWode">添加此训练</view>
+  <view class="b2" bindtap="bindShipin">立即开始</view>
+</view>

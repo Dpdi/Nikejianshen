@@ -1,0 +1,7 @@
+<!--pages/shouye_1/shouye_1.wxml-->
+<image src="../../images/shouye_1.jpg"></image>
+<view class="rm1">训练级别</view>
+<view class="rm2">初级和中级</view>
+<view class="rm3">合适人群</view>
+<view class="rm4">刚开始训练或只是想保持健康的人群</view>
+<button bindtap="bindSz">设置计划</button>

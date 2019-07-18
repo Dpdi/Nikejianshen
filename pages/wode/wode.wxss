@@ -1,0 +1,47 @@
+/* pages/wode/wode.wxss */
+text{
+  display: block;
+}
+.wode{
+  padding:10rpx 0 20rpx; 
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.wode_2{
+  margin-top: 60rpx;
+  padding-left: 20rpx;
+  border-left: 2px solid #808080;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+.wode_2_2{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.wode_3{
+  margin-top: 120rpx;
+  margin-left: 120rpx;
+  color: #808080;
+}
+
+.jinxing{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10rpx;
+}
+
+.tu{
+  width: 100%;
+}
+.tu image{
+  width: 100%;
+}

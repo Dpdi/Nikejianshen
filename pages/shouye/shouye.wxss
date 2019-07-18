@@ -1,0 +1,9 @@
+/* pages/shouye/shouye.wxss */
+.shouye{
+  width: 100%;
+  height: 370rpx;
+}
+.shouye image{
+  width: 100%;
+  height: 100%;
+}

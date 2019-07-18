@@ -1,0 +1,13 @@
+<!--pages/qidongping/qidongping.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" indicator-active-color="#fff" circular="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="button" bindtap="bindSy" >
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">立即进入</button>
+</view>
